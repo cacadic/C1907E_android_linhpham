@@ -1,0 +1,2 @@
+rootProject.name = "C1907E_android"
+include ':app'

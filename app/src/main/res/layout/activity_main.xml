@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout
+    android:id="@+id/main_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="Ic Launcher"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"/>
+
+    <TextView
+        android:id="@+id/txtFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="Activity: "/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:text="World"/>
+
+    <Button
+        android:id="@+id/btnNextFromFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_gravity="bottom|right"/>
+
+    <Button
+        android:id="@+id/btnOpenLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Link"
+        android:layout_gravity="bottom|left"
+        />
+
+</FrameLayout>
