@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SimpleCalculator">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIMPLE CALCULATOR"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edtFirstNumberSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First number"
+        android:inputType="number" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp">
+
+        <TextView
+            android:id="@+id/txtPhepTinhSimple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="+"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCongSimple"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnTruSimple"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="-"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnNhanSimple"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="x"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnChiaSimple"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="/"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/edtSecondNumberSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Second Number"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnBangSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txtKetQuaSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+
+</LinearLayout>

@@ -9,18 +9,31 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.C1907E_android">
-        <activity android:name=".ThirdActivity"></activity>
-        <activity android:name=".SecondActivity" />
-        <activity
-            android:name=".MainActivity"
-            android:label="C1907E_android"
-            android:theme="@style/Theme.AppCompat.DayNight">
+        <activity android:name=".SimpleCalculator">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SavedInstanceState">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LifeCycleActivity" />
+        <activity
+            android:name=".ThirdActivity"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".SecondActivity"
+            android:theme="@style/Theme.AppCompat.DayNight" />
+        <activity
+            android:name=".MainActivity"
+            android:label="C1907E_android"
+            android:theme="@style/Theme.AppCompat.DayNight" />
     </application>
 
 </manifest>

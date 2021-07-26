@@ -22,6 +22,7 @@ public class SecondActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         String[] info = bundle.getStringArray("info");
+
         int activity = bundle.getInt("activity");
 
         TextView txtSecond = findViewById(R.id.txtSecond);

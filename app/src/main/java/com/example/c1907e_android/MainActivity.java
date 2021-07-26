@@ -18,10 +18,12 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-        int activity = 1;
+
         Bundle bundle = new Bundle();
         bundle.putStringArray("info", new String[]{"Linh Pham", "29", "FPT", "Blue Bottle"});
-        bundle.putInt("activity", 1);
+
+        int activity = 1;
+        bundle.putInt("activity", activity);
 
         TextView txtFirst = findViewById(R.id.txtFirst);
         txtFirst.append(bundle.getInt("activity") + "");
@@ -48,6 +50,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btnBackFromMain = findViewById(R.id.btnBackFromMain);
 
+        btnBackFromMain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LifeCycleActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
