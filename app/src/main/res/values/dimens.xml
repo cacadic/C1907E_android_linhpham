@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_start_calculator_button">16dp</dimen>
+    <dimen name="margin_top_calculator_button">17dp</dimen>
+    <dimen name="button_width_calculator">80sp</dimen>
+    <dimen name="button_height_calculator">90dp</dimen>
+    <dimen name="button_radius_calculator">50dp</dimen>
+</resources>

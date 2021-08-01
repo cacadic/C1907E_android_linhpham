@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="20dp"
+    tools:context=".Calculator">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/txtKetQuaCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textAlignment="textEnd"
+        android:textSize="50sp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/lightGray"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:text="C"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAmDuongCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/lightGray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:text="+/-"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPhanTramCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/lightGray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/black"
+            android:textSize="36sp"
+            android:text="%"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChiaCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/orange"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="/"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn7Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="7"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn8Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="8"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn9Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="9"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnNhanCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/orange"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="x"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn4Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="4"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn5Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="5"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn6Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="6"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTruCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/orange"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="-"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn1Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn2Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn3Calculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="3"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCongCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/orange"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="+"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn0Calculator"
+            android:layout_width="176sp"
+            android:layout_height="90dp"
+            android:backgroundTint="@color/gray"
+            app:cornerRadius="50dp"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="0"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPhayCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/gray"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="."/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBangCalculator"
+            android:layout_width="@dimen/button_width_calculator"
+            android:layout_height="@dimen/button_height_calculator"
+            app:cornerRadius="@dimen/button_radius_calculator"
+            android:backgroundTint="@color/orange"
+            android:layout_marginStart="@dimen/margin_start_calculator_button"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:text="="/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
