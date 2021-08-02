@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.C1907E_android">
         <activity
-            android:name=".ListViewActivity"
+            android:name=".RecyclerGitHubUserActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,34 +21,23 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".RecycleViewActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".ListViewActivity"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".CheckIPActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".Calculator">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".SimpleCalculator">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".SavedInstanceState">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".LifeCycleActivity" />
         <activity

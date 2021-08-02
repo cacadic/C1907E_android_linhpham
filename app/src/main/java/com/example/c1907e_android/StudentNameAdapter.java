@@ -11,7 +11,6 @@ import android.widget.TextView;
 import com.example.c1907e_android.Models.Student;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.List;
 
 public class StudentNameAdapter extends BaseAdapter {
